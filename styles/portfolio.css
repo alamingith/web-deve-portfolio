@@ -1,0 +1,148 @@
+
+.roboto-mono-normal {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+.text-primary{
+  color:#FD6E0A;
+}
+.dark-2{
+   color:#474747;
+}
+.btn-primary{
+  background-color:#FD6E0A;
+  font-weight:bold;
+  color:#fff;
+  padding:18px 35px;
+  border-radius:5px;
+  border:none;
+  font-size:20px;
+}
+.section-title{
+  font-weight:bold;
+  font-size:35px;
+}
+.section-description{
+  font-size:18px;
+  color:#757575;
+}
+.secondary-bg{
+  background-color:#FFF8F3;
+}
+.text-center{
+  text-align:center;
+}
+/* nav styles */
+
+header{
+  background-image:url("../images/developer.png") , url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left ,bottom right;
+}
+nav{
+  /* border:1px solid red; */
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin:0px 200px;
+}
+.nav-title{
+  font-weight: bolder;
+  font-size: 45px;
+}
+nav ul{
+  display:flex;
+  align-items:center;
+}
+nav ul li{
+  list-style:none;
+  margin-right:51px;
+}
+nav ul li a{
+  text-decoration:none;
+}
+/* Banner style */
+
+.banner{
+  display:flex;
+  justify-content:space-between;
+  margin:0 35px 0 200px;
+}
+.banner-content{
+  max-width:585px;
+}
+.banner-greetings{
+  font-weight:600;
+  font-size:45px;
+}
+.banner-title{
+  font-weight:bold;
+  font-size:85px;
+}
+.banner-description{
+  font-size:18px;
+}
+.banner-profile-pic{
+  width:585px;
+}
+/* main style */
+main{
+  max-width:1140px;
+  margin:0 auto;
+}
+
+/* About style */
+
+.about{
+  /* border:1px solid red; */
+  border-radius:10px;
+  padding:130px 15px ;
+  text-align:center;
+  margin:130px 230px;
+
+}
+.child-section{
+  /* border:1px solid red; */
+  background-color:#fff;
+}
+.section-description{
+  /* border:1px solid tomato; */
+  
+  margin:30px 22.5px;
+}
+.about-items{
+  display:flex;
+  justify-content:space-around;
+}
+.item-description{
+  font-weight:600;
+}
+/* skill servise */
+
+.skills-container{
+  display:flex;
+  gap:24px;
+  margin-bottom:130px;
+  text-align:left;
+}
+.skill-title{
+  text-align:left;
+  padding:0 30px;
+}
+.img{
+  padding: 0 30px;
+ 
+}
+.skill-description{
+  padding:30px;
+  text-align:left;
+  margin-top:-30px;
+  
+}
+.skill{
+  border-radius:5px;
+  box-shadow:0px 6px 50px 0px rgba(0,0,0,0.06);
+}
